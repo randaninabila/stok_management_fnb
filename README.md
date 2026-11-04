@@ -7,10 +7,8 @@ Lokasi penyimpanan: Gudang Utama dan Dapur
 
 Struktur Aplikasi
 A. Owner
-Tugas Owner: memantau stok dan menyetujui pembelian.
-Navigasi Owner: 
-
-Beranda - Stok - Profil
+Tugas Owner: memantau stok dan menyetujui pembelian
+Navigasi Owner: Beranda - Stok - Profil
 Isi setiap menu
 1. Beranda
 Ringkasan stok Gudang Utama.
@@ -33,9 +31,7 @@ Melihat detail bahan dan jumlah yang diminta.
 Menyetujui atau menolak pengajuan.
 B. Staf Dapur
 Tugas Staf Dapur: melihat stok dapur, mencatat penggunaan bahan, dan meminta bahan dari gudang.
-Navigasi Staf Dapur:
-
-Beranda - Stok - Aktivitas - Profil
+Navigasi Staf Dapur: Beranda - Stok - Aktivitas - Profil
 Isi setiap menu
 1. Beranda
 Ringkasan stok dapur.
@@ -62,9 +58,7 @@ Detail Pesanan: melihat detail pesanan dan menekan tombol Pesanan Selesai.
 Ketika pesanan selesai, sistem mengurangi stok bahan dapur sesuai komposisi bahan yang sudah ditentukan.Komposisi bahan bisa disimpan sebagai data awal di database.
 C. Staf Gudang
 Tugas Staf Gudang: mengelola stok gudang, mencatat barang masuk, memenuhi permintaan dapur, dan mengajukan pembelian.
-Navigasi Staf Gudang
-
-Beranda - Stok - Transaksi - Profil
+Navigasi Staf Gudang: Beranda - Stok - Transaksi - Profil
 Isi setiap menu
 1. Beranda
 Ringkasan stok gudang.
