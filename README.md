@@ -7,7 +7,7 @@ Pengguna aplikasi: Owner, Staf Dapur, Staf Gudang
 
 Lokasi penyimpanan: Gudang Utama dan Dapur
 
-Struktur Aplikasi
+
 A. Owner
 
 Tugas Owner: memantau stok dan menyetujui pembelian
