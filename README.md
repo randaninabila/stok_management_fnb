@@ -1,17 +1,49 @@
-# nutrack
+# stok_management-_fnb
 
-A new Flutter project.
+Aplikasi Manajemen Stok Bahan Baku F&B
+Aplikasi mobile untuk membantu pengelolaan persediaan bahan baku pada usaha F&B melalui pencatatan stok, pemindahan bahan antara gudang dan dapur, serta pemantauan penggunaan bahan.
 
-## Getting Started
+Pengguna aplikasi: Owner, Staf Dapur, Staf Gudang
 
-This project is a starting point for a Flutter application.
+Lokasi penyimpanan: Gudang Utama dan Dapur
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+A. Owner
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tugas Owner: memantau stok dan menyetujui pembelian
+
+Navigasi Owner: Beranda - Stok - Profil
+
+Isi setiap menu
+1. Beranda : Ringkasan stok Gudang Utama, Ringkasan stok Dapur, Informasi stok menipis, Daftar permintaan pembelian yang menunggu persetujuan.
+2. Stok : Daftar bahan baku, Jumlah stok Gudang Utama, Jumlah stok Dapur, Detail bahan dan status stok, Tambah, edit, dan hapus data bahan baku (CRUD).
+3. Profil : Informasi akun, Ubah kata sandi, Logout, Fitur tambahan dari Beranda: Persetujuan Pembelia, Melihat daftar pengajuan, Melihat detail bahan dan jumlah yang diminta, Menyetujui atau menolak pengajuan.
+
+B. Staf Dapur
+
+Tugas Staf Dapur: melihat stok dapur, mencatat penggunaan bahan, dan meminta bahan dari gudang.
+
+Navigasi Staf Dapur: Beranda - Stok - Aktivitas - Profil
+
+Isi setiap menu
+1. Beranda : Ringkasan stok dapur, Informasi bahan menipis, Ringkasan pesanan yang sedang diproses, Status permintaan bahan.
+2. Stok : Daftar bahan baku dapur, Jumlah stok, Status ketersediaan bahan, Detail bahan.
+3. Aktivitas : Pesanan: melihat pesanan, menambah pesanan, dan menyelesaikan pesanan, Permintaan Bahan: mengajukan permintaan bahan ke gudang, Penerimaan Bahan: mengonfirmasi bahan yang diterima dari gudang.
+4. Profil : Informasi akun, Ubah kata sandi, Logout.
+Untuk fitur pesanan, cukup ada dua halaman: Tambah Pesanan: pilih menu, masukkan jumlah porsi, dan catatan opsional.
+, Detail Pesanan: melihat detail pesanan dan menekan tombol Pesanan Selesai, Ketika pesanan selesai, sistem mengurangi stok bahan dapur sesuai komposisi bahan yang sudah ditentukan.Komposisi bahan bisa disimpan sebagai data awal di database.
+
+C. Staf Gudang
+
+Tugas Staf Gudang: mengelola stok gudang, mencatat barang masuk, memenuhi permintaan dapur, dan mengajukan pembelian.
+
+Navigasi Staf Gudang: Beranda - Stok - Transaksi - Profil
+
+Isi setiap menu
+1. Beranda : Ringkasan stok gudang, Informasi bahan menipis, Permintaan bahan dari dapur, Status pengajuan pembelian.
+2. Stok : Daftar bahan baku gudang, Jumlah stok, Detail bahan, Tambah, edit, dan pencatatan stok.
+3. Transaksi : Barang Masuk: mencatat bahan yang baru diterima, Permintaan Dapur: melihat dan memproses permintaan bahan, Pengajuan Pembelian: mengajukan pembelian kepada Owner.
+4. Profil : Informasi akun, Ubah kata sandi, Logout.
+
+
+
