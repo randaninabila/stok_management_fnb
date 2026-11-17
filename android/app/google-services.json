@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515751613721",
+    "project_id": "nutrack-1e24b",
+    "storage_bucket": "nutrack-1e24b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515751613721:android:61a4042b0261d56b8fe188",
+        "android_client_info": {
+          "package_name": "com.nutrack.nutrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT0u9kvAYo4Wr9tk3gjKJpz0PiC2n1TX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
