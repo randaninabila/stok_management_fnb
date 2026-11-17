@@ -19,8 +19,8 @@ class StockTransactionService {
 
   // Memastikan jumlah stok harus lebih dari 0.
   void _validateQuantity(double quantity) {
-    if (quantity <= 0) {
-      throw ArgumentError('Jumlah stok harus lebih dari 0.');
+    if (!quantity.isFinite || quantity <= 0) {
+    throw ArgumentError('Jumlah stok harus lebih dari 0.');
     }
   }
 
